@@ -74,7 +74,7 @@ const ForecastItem: FC<ForecastItemProps> = ({ data }) => {
             </StyledTypography>
           </Box>
           <StyledImg
-            src={`http://${serverUrl}/img/wn/${data.weather[0].icon}.png`}
+            src={`https://${serverUrl}/img/wn/${data.weather[0].icon}.png`}
             alt="icon"
           />
         </Box>

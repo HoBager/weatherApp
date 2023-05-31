@@ -11,7 +11,7 @@ export async function getCity(cityName: string) {
 }
 
 async function getForecast(cityName: string) {
-  const url = `http://api.${serverUrl}/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=metric`;
+  const url = `https://api.${serverUrl}/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=metric`;
 
   const response = await fetch(url);
   if (response.ok) {
@@ -22,7 +22,7 @@ async function getForecast(cityName: string) {
 }
 
 async function getDetails(cityName: string) {
-  const url = `http://api.${serverUrl}/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
+  const url = `https://api.${serverUrl}/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
   const response = await fetch(url);
   if (response.ok) {

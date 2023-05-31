@@ -55,7 +55,7 @@ const Now = () => {
         boxSizing="border-box"
         height="30%"
       >
-        <Img src={`http://${serverUrl}/img/wn/${icon}@4x.png`} alt="img" />
+        <Img src={`https://${serverUrl}/img/wn/${icon}@4x.png`} alt="img" />
       </Box>
       <Box display="flex" justifyContent="space-between">
         <Typography variant="h4" lineHeight="1.75">
