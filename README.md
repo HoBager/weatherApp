@@ -27,6 +27,7 @@
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - React Router Dom
 - Redux persist
+- MUI
 
 ## Authors
 
